@@ -1,0 +1,15 @@
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.csproj.AssemblyReference.cache
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.AssemblyInfoInputs.cache
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.AssemblyInfo.cs
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.csproj.CoreCompileInputs.cache
+C:\Users\Kasparas\Desktop\Dominykas LW1\bin\Debug\net6.0\Dominykas LW1.exe
+C:\Users\Kasparas\Desktop\Dominykas LW1\bin\Debug\net6.0\Dominykas LW1.deps.json
+C:\Users\Kasparas\Desktop\Dominykas LW1\bin\Debug\net6.0\Dominykas LW1.runtimeconfig.json
+C:\Users\Kasparas\Desktop\Dominykas LW1\bin\Debug\net6.0\Dominykas LW1.dll
+C:\Users\Kasparas\Desktop\Dominykas LW1\bin\Debug\net6.0\Dominykas LW1.pdb
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.dll
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\refint\Dominykas LW1.dll
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.pdb
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\Dominykas LW1.genruntimeconfig.cache
+C:\Users\Kasparas\Desktop\Dominykas LW1\obj\Debug\net6.0\ref\Dominykas LW1.dll
