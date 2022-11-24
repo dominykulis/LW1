@@ -13,36 +13,27 @@ internal class TextFieldParser
                 var line = reader.ReadLine();
                 var values = line.Split(',');
                 if (i>0)
-                age.Add(values[4]);
+                age.Add(values[2]);
+
+                //Console.WriteLine(values[2]);
                 i++;
-
             }
-                   foreach(string date in age)
-{
-    int matches=0;
-    for(int f=0; f < i ; f++)
-    {
-        if(date == age[f])
-        {
-            matches++;
+
+            //Console.WriteLine(i);
+            Console.WriteLine(age[0]);
+
+            for(int g = 0; g < i ; g++)
+            {
+                int matches=0;
+                for(int f = g+1; f < i ; f++)
+                {
+                    if(age[g] == age[f])
+                    {
+                        matches++;
+                    }
+                }
+            Console.WriteLine($"There are {matches} ammout of people that were born in {age[g]}");
+            }
         }
     }
-    Console.WriteLine($"There are {matches} ammout of people that were born in {date}");
 }
-
-
-
-        }
-            
-
-
-    }
-       
-
-
-}
-  
-
-
-
-            
