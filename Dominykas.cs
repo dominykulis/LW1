@@ -40,7 +40,7 @@ internal class TextFieldParser
 
                 if(matches > 0)
                 {
-                    Console.WriteLine($"There are {matches} people that were born in {f}");
+                    Console.WriteLine($"There are {matches} people that were born in {test_date}");
                 }
 
             }
