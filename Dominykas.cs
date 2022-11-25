@@ -1,3 +1,5 @@
+using System;
+
 using System.IO;
 internal class TextFieldParser
 {
@@ -12,28 +14,35 @@ internal class TextFieldParser
             {
                 var line = reader.ReadLine();
                 var values = line.Split(',');
+                    
                 if (i>0)
-                age.Add(values[2]);
-
-                //Console.WriteLine(values[2]);
+                {
+                    age.Add(values[2]);
+                }
                 i++;
             }
 
-            //Console.WriteLine(i);
-            Console.WriteLine(age[0]);
-
-            for(int g = 0; g < i ; g++)
+            for(int f=1900; f < 2023; f++)
             {
-                int matches=0;
-                for(int f = g+1; f < i ; f++)
+                int matches = 0;
+
+                foreach(string date in age)
                 {
-                    if(age[g] == age[f])
+                    int date_int = Convert.ToInt32(date);
+
+                    if(date_int == f)
                     {
                         matches++;
                     }
                 }
-            Console.WriteLine($"There are {matches} ammout of people that were born in {age[g]}");
+
+                if(matches > 0)
+                {
+                    Console.WriteLine($"There are {matches} people that were born in {f}");
+                }
+
             }
+
         }
     }
 }
